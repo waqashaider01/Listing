@@ -487,7 +487,9 @@ border-radius: 10px;
 
 
 /*######################> Main Page Start <################## */
-
+.main-banner{
+  position: relative !important;
+}
 .main-banner img{
  
  
@@ -504,6 +506,36 @@ border-radius: 10px;
  
  object-fit: cover;
 }
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -35px;
+  position: relative;
+  z-index: 2;
+  right: 20px;
+  color: #F78888;
+  font-size: 20px;
+}
+
+.inputfeild-container{
+  position: absolute;
+  top: 70%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10000;
+  width: 100%;
+}
+.fotm-input-sett input{
+  height: 50px;
+}
+.main-banner-btn{
+  background-color: var(--btn);
+  color: white;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /*######################> Main Page End <################## */
 
