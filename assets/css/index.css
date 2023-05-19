@@ -1,0 +1,509 @@
+
+:root {  
+ --body: #ECECEC;
+--log-input:#ECECEC;
+--log-container:#495F78;
+--link-log:rgba(255, 255, 255, 0.7);
+--signup-link:#F78888;
+--btn:#F78888;
+ 
+}
+
+
+
+
+/* ####################>Login Signup Satrt<################  */
+.log_body{
+     background:var(--body);
+border-radius: 10px;
+width: 100%;
+height: auto !important;
+padding-bottom: 200px;
+
+}
+.log_main{
+    position:  relative;
+    top: 100px;
+    bottom: 100px;
+ background: var(--log-container) ;
+box-shadow: 25.78px 25.78px 41.25px 15.47px rgba(92, 177, 255, 0.25);
+}
+.log-bootm-detain li {
+    list-style: none;
+}
+.log-bootm-detain li a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.7);
+}
+@media(max-width:350px)
+{
+    .log-bootm-detain li a{
+font-size: 14px;
+}
+}
+.log-bootm-detain li a:hover{
+ color: white;
+}
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+.icon-addon:after {
+    clear: both;
+}
+.addon-lg .form-control-log {
+    line-height: 1.33;
+    height: 50px;
+    font-size: 18px;
+    width: 100% !important;
+    
+    border-radius: 30px;
+    padding: 10px 16px 10px 80px;
+    border: none ;
+   background: var(--log-input);
+}
+.log-icons{
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+.log-forget-pass{
+    float: right;
+
+    
+}
+.log-forget-pass a{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.5px;
+color:  var(--link-log);
+text-decoration: none;
+}
+.log-forget-pass a:hover{
+  
+color: white;
+ transition: 0.5s;
+}
+.log-btn1 button{
+height: 50px;
+background: var(--btn);
+border-radius: 90px;
+width: 100%;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #FFFFFF;
+}
+.log-btn1 button:hover{
+height: 50px;
+background: var(--btn);
+border-radius: 90px;
+width: 100%;
+
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #FFFFFF;
+}
+.log-signup-link{
+        font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.5px;
+color: rgba(255, 255, 255, 0.7);
+}
+.log-signup-link a{
+ color: var(--signup-link);
+ text-decoration: none;
+}
+/* ####################>Login Signup End <################  */
+
+
+ /*#########################> Header Start <##################### */
+         #header {
+  background: var(--body) !important;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar{
+margin: 0px !important;
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+}
+
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 0px 0;
+}
+
+#header.header-inner-pages {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#header .logo a {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.15px;
+
+/* Black/black */
+
+color: #000000;
+
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+ 
+  padding: 10px 0 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.header-profile{
+  width: 40px;
+height: 40px;
+
+}
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #d9232d;
+}
+
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  background: var(--btn);
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #e1444d;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #d9232d;
+}
+
+.navbar .dropdown:hover>ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover>ul {
+    left: -100%;
+  }
+}
+
+ 
+.mobile-nav-toggle {
+  color: #556270;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(63, 73, 83, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #556270;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover>a {
+  color: #d9232d;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+}
+
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover>a {
+  color: #d9232d;
+}
+
+.navbar-mobile .dropdown>.dropdown-active {
+  display: block;
+}
+
+.header-message{
+  width: 30px;
+}
+.header-active{
+  width: 10px;
+  position: absolute;
+right: -4px;
+top: -4px;
+}
+.header-active-2{
+  position: absolute; top: 0px; right: 2px;
+}
+
+
+.header-search{
+  position: relative;
+}
+.header-search input{
+ width: 250px;
+ height: 40px;
+
+ background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+border-radius: 40px;
+border: none;
+outline: none;
+padding-left: 10px;
+padding-right: 50px;
+}
+.header-search i{
+  position: absolute;
+  right: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  top: 10px;
+  cursor: pointer;
+}
+.header-search i:hover{
+ transform: scale(0.7);
+}
+
+/* Header Profile Start  */
+
+.header-profile-links{
+ background:  var(--body)!important;
+border-radius: 10px;
+}
+
+/* Header Profile End  */
+/*#########################> Header End <############### */
+
+
+/*######################> Main Page Start <################## */
+
+.main-banner img{
+ 
+ 
+  width: 100%;
+ height: 80vh;
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+
+@media(max-width:992px)
+{
+  .main-banner img{
+ 
+ 
+ object-fit: cover;
+}
+}
+/*######################> Main Page End <################## */
+
