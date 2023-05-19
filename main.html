@@ -28,9 +28,17 @@
     <!-- font Awsome Start  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
+
+
+
+    <!-- slider Statr  -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
 
-<body>
+<body class="main-body">
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center">
         <div class="container d-flex align-items-center">
@@ -163,63 +171,634 @@
     </header><!-- End Header -->
     <!-- ###################>Banner Start  <################-->
     <div class="main-banner">
-
-
         <div class="container  inputfeild-container">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-4 ">
-        
+
                     <div class="form-group fotm-input-sett">
-                        <input id="password-field" type="password" class="form-control"   placeholder="I am Looking for...">
+                        <input id="password-field" type="password" class="form-control"
+                            placeholder="I am Looking for...">
                         <span toggle="#password-field" class="  fas fa-shopping-cart field-icon toggle-password"></span>
-        
- 
-                        
+
+
+
                     </div>
-        
+
                 </div>
                 <div class="col-md-4 ">
-        
+
                     <div class="form-group fotm-input-sett">
-                        <input id="password-field" type="text" class="form-control"   placeholder="Where..">
+                        <input id="password-field" type="text" class="form-control" placeholder="Where..">
                         <span toggle="#password-field" class=" fas fa-map-marker-alt field-icon toggle-password"></span>
-        
+
                     </div>
-        
+
                 </div>
                 <div class="col-md-2"></div>
-                
+
             </div>
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-3"></div>
-                    <div class="col-md-6 d-flex justify-content-center">
-                    <button type="button" class="btn w-50 btn-lg main-banner-btn">Search</button>
+                    <div class="col-md-6 d-flex justify-content-evenly">
+                        <button type="button" class="btn w-50 btn-lg main-banner-btn">Search</button>
                     </div>
                     <div class="col-md-3"></div>
 
                 </div>
             </div>
-             
+
         </div>
         <img src="./assets/img/main-container.png" alt="">
 
     </div>
+    <!-- ###################>Banner End  <################-->
+
+
+
+
+    <div class="container  mt-5   ">
+
+        <!--################> Top Category Start <########### -->
+        <h1 class="main_headings">Top Categories</h1>
+        <div class="row my-5 d-flex justify-content-evenly ">
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-1.png" alt="">
+
+                    <h5>Real Estate</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-2.png" alt="">
+
+                    <h5>Cars</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly m-0 p-0 ">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-3.png" alt="">
+
+                    <h5>Animals & Pets</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly m-0 p-0 ">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-4.png" alt="">
+
+                    <h5>Health</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-5.png" alt="">
+
+                    <h5>Babies & Kids</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-6.png" alt="">
+
+                    <h5>Services</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-7.png" alt="">
+
+                    <h5>Jobs</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-10.png" alt="">
+
+                    <h5>Computers</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-8.png" alt="">
+
+                    <h5>Fashion</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-9.png" alt="">
+
+                    <h5>Electronics</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-11.png" alt="">
+
+                    <h5> Construction</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-12.png" alt="">
+
+                    <h5>Agriculture </h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content">
+                    <img src="./assets/img/categ-13.png" alt="">
+
+                    <h5>Mobiles</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col  my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content pt-5">
+                    <h5>Fashion</h5>
+                    <img src="./assets/img/categ-14.png" alt="" class="w-25">
+
+                    <h5>Fashion</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+            <div class="col     my-4 d-flex justify-content-evenly  m-0 p-0">
+                <div class="cat-card categ-card-content pt-5">
+                    <h5>Fashion</h5>
+                    <img src="./assets/img/categ-14.png" alt="" class="w-25">
+
+                    <h5>Fashion</h5>
+                    <p>14,400 Ads
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!--################> Top Category End<########### -->
+
+
+
+        <!--################> Featured  Start <########### -->
+
+        <h1 class="main_headings">Featured</h1>
+
+        <div class="main_slider12_cet">
+            <div class="slider12 owl-carousel">
+                <div class="card123">
+                    <div class="img position-relative">
+                        <span class="badge  feature-badge">Sponsored</span>
+                        <img src="./assets/img/main-feature-1.png" alt="">
+
+                        <div class=" feature-card-price px-5">
+                            <div>
+                                <h4>$ 20,000</h4>
+                            </div>
+                            <div class="mt-1">
+                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 18.35L8.55 17.03C3.4 12.36 0 9.27 0 5.5C0 2.41 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.08C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.41 20 5.5C20 9.27 16.6 12.36 11.45 17.03L10 18.35Z"
+                                        fill="white" />
+                                </svg>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="content featured-card-content">
+                        <div class="title">
+                        Chevelotte Maike
+                        </div>
+                        <div class="sub-title">
+                            <div class="mt-2">
+                                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 7.13376C6.4125 7.13376 6.76575 6.99394 7.05975 6.71429C7.35375 6.43465 7.5005 6.09889 7.5 5.70701C7.5 5.31465 7.353 4.97865 7.059 4.69901C6.765 4.41936 6.412 4.27978 6 4.28025C5.5875 4.28025 5.23425 4.42008 4.94025 4.69972C4.64625 4.97936 4.4995 5.31513 4.5 5.70701C4.5 6.09936 4.647 6.43536 4.941 6.71501C5.235 6.99465 5.588 7.13423 6 7.13376ZM6 14C5.9 14 5.8 13.9822 5.7 13.9465C5.6 13.9108 5.5125 13.8633 5.4375 13.8038C3.6125 12.2701 2.25 10.8462 1.35 9.53213C0.45 8.21809 0 6.99061 0 5.84968C0 4.06624 0.60325 2.64544 1.80975 1.58726C3.01625 0.529087 4.413 0 6 0C7.5875 0 8.9845 0.529087 10.191 1.58726C11.3975 2.64544 12.0005 4.06624 12 5.84968C12 6.99108 11.55 8.2188 10.65 9.53284C9.75 10.8469 8.3875 12.2705 6.5625 13.8038C6.4875 13.8633 6.4 13.9108 6.3 13.9465C6.2 13.9822 6.1 14 6 14Z"
+                                        fill="black" />
+                                </svg>
+
+                            </div>
+                            <div class="mx-3">
+                                <p>264 Gregory Ave.Southfield, MI 48076</p>
+                            </div>
+                        </div>
+                         
+
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="mt-3">
+                                <p>Milage</p>
+                        
+                            </div>
+                            <div class=" ">
+                                <h2>100,325 Kms</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="">
+                                <p>Version</p>
+                        
+                            </div>
+                            <div class=" ">
+                                <h2>Automatic</h2>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class=" ">
+                                <p>Fuel</p>
+                        
+                            </div>
+                            <div class=" ">
+                                <h2>Petrol</h2>
+                            </div>
+                        </div>
+                         
+                    </div>
+                </div>
+                <div class="card123">
+                    <div class="img position-relative">
+                        
+                        <img src="./assets/img/main-feature-2.png" alt="">
+                
+                        <div class=" feature-card-price px-5">
+                            <div>
+                                <h4>$ 20,000</h4>
+                            </div>
+                            <div class="mt-1">
+                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 18.35L8.55 17.03C3.4 12.36 0 9.27 0 5.5C0 2.41 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.08C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.41 20 5.5C20 9.27 16.6 12.36 11.45 17.03L10 18.35Z"
+                                        fill="white" />
+                                </svg>
+                
+                            </div>
+                
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Chevelotte Maike
+                        </div>
+                        <div class="sub-title">
+                            <div class="mt-2">
+                                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 7.13376C6.4125 7.13376 6.76575 6.99394 7.05975 6.71429C7.35375 6.43465 7.5005 6.09889 7.5 5.70701C7.5 5.31465 7.353 4.97865 7.059 4.69901C6.765 4.41936 6.412 4.27978 6 4.28025C5.5875 4.28025 5.23425 4.42008 4.94025 4.69972C4.64625 4.97936 4.4995 5.31513 4.5 5.70701C4.5 6.09936 4.647 6.43536 4.941 6.71501C5.235 6.99465 5.588 7.13423 6 7.13376ZM6 14C5.9 14 5.8 13.9822 5.7 13.9465C5.6 13.9108 5.5125 13.8633 5.4375 13.8038C3.6125 12.2701 2.25 10.8462 1.35 9.53213C0.45 8.21809 0 6.99061 0 5.84968C0 4.06624 0.60325 2.64544 1.80975 1.58726C3.01625 0.529087 4.413 0 6 0C7.5875 0 8.9845 0.529087 10.191 1.58726C11.3975 2.64544 12.0005 4.06624 12 5.84968C12 6.99108 11.55 8.2188 10.65 9.53284C9.75 10.8469 8.3875 12.2705 6.5625 13.8038C6.4875 13.8633 6.4 13.9108 6.3 13.9465C6.2 13.9822 6.1 14 6 14Z"
+                                        fill="black" />
+                                </svg>
+                
+                            </div>
+                            <div class="mx-3">
+                                <p>264 Gregory Ave.Southfield, MI 48076</p>
+                            </div>
+                        </div>
+                
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="mt-3">
+                                <p>Milage</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>100,325 Kms</h2>
+                            </div>
+                        </div>
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="">
+                                <p>Version</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Automatic</h2>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class=" ">
+                                <p>Fuel</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Petrol</h2>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="card123">
+                    <div class="img position-relative">
+                        <span class="badge  feature-badge">Sponsored</span>
+                        <img src="./assets/img/main-feature-3.png" alt="">
+                
+                        <div class=" feature-card-price px-5">
+                            <div>
+                                <h4>$ 20,000</h4>
+                            </div>
+                            <div class="mt-1">
+                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 18.35L8.55 17.03C3.4 12.36 0 9.27 0 5.5C0 2.41 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.08C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.41 20 5.5C20 9.27 16.6 12.36 11.45 17.03L10 18.35Z"
+                                        fill="white" />
+                                </svg>
+                
+                            </div>
+                
+                        </div>
+                    </div>
+                    <div class="content featured-card-content">
+                        <div class="title">
+                            Chevelotte Maike
+                        </div>
+                        <div class="sub-title">
+                            <div class="mt-2">
+                                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 7.13376C6.4125 7.13376 6.76575 6.99394 7.05975 6.71429C7.35375 6.43465 7.5005 6.09889 7.5 5.70701C7.5 5.31465 7.353 4.97865 7.059 4.69901C6.765 4.41936 6.412 4.27978 6 4.28025C5.5875 4.28025 5.23425 4.42008 4.94025 4.69972C4.64625 4.97936 4.4995 5.31513 4.5 5.70701C4.5 6.09936 4.647 6.43536 4.941 6.71501C5.235 6.99465 5.588 7.13423 6 7.13376ZM6 14C5.9 14 5.8 13.9822 5.7 13.9465C5.6 13.9108 5.5125 13.8633 5.4375 13.8038C3.6125 12.2701 2.25 10.8462 1.35 9.53213C0.45 8.21809 0 6.99061 0 5.84968C0 4.06624 0.60325 2.64544 1.80975 1.58726C3.01625 0.529087 4.413 0 6 0C7.5875 0 8.9845 0.529087 10.191 1.58726C11.3975 2.64544 12.0005 4.06624 12 5.84968C12 6.99108 11.55 8.2188 10.65 9.53284C9.75 10.8469 8.3875 12.2705 6.5625 13.8038C6.4875 13.8633 6.4 13.9108 6.3 13.9465C6.2 13.9822 6.1 14 6 14Z"
+                                        fill="black" />
+                                </svg>
+                
+                            </div>
+                            <div class="mx-3">
+                                <p>264 Gregory Ave.Southfield, MI 48076</p>
+                            </div>
+                        </div>
+                
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="mt-3">
+                                <p>Milage</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>100,325 Kms</h2>
+                            </div>
+                        </div>
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="">
+                                <p>Version</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Automatic</h2>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class=" ">
+                                <p>Fuel</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Petrol</h2>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="card123">
+                    <div class="img position-relative">
+                
+                        <img src="./assets/img/main-feature-4.png" alt="">
+                
+                        <div class=" feature-card-price px-5">
+                            <div>
+                                <h4>$ 20,000</h4>
+                            </div>
+                            <div class="mt-1">
+                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 18.35L8.55 17.03C3.4 12.36 0 9.27 0 5.5C0 2.41 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.08C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.41 20 5.5C20 9.27 16.6 12.36 11.45 17.03L10 18.35Z"
+                                        fill="white" />
+                                </svg>
+                
+                            </div>
+                
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Chevelotte Maike
+                        </div>
+                        <div class="sub-title">
+                            <div class="mt-2">
+                                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 7.13376C6.4125 7.13376 6.76575 6.99394 7.05975 6.71429C7.35375 6.43465 7.5005 6.09889 7.5 5.70701C7.5 5.31465 7.353 4.97865 7.059 4.69901C6.765 4.41936 6.412 4.27978 6 4.28025C5.5875 4.28025 5.23425 4.42008 4.94025 4.69972C4.64625 4.97936 4.4995 5.31513 4.5 5.70701C4.5 6.09936 4.647 6.43536 4.941 6.71501C5.235 6.99465 5.588 7.13423 6 7.13376ZM6 14C5.9 14 5.8 13.9822 5.7 13.9465C5.6 13.9108 5.5125 13.8633 5.4375 13.8038C3.6125 12.2701 2.25 10.8462 1.35 9.53213C0.45 8.21809 0 6.99061 0 5.84968C0 4.06624 0.60325 2.64544 1.80975 1.58726C3.01625 0.529087 4.413 0 6 0C7.5875 0 8.9845 0.529087 10.191 1.58726C11.3975 2.64544 12.0005 4.06624 12 5.84968C12 6.99108 11.55 8.2188 10.65 9.53284C9.75 10.8469 8.3875 12.2705 6.5625 13.8038C6.4875 13.8633 6.4 13.9108 6.3 13.9465C6.2 13.9822 6.1 14 6 14Z"
+                                        fill="black" />
+                                </svg>
+                
+                            </div>
+                            <div class="mx-3">
+                                <p>264 Gregory Ave.Southfield, MI 48076</p>
+                            </div>
+                        </div>
+                
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="mt-3">
+                                <p>Milage</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>100,325 Kms</h2>
+                            </div>
+                        </div>
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="">
+                                <p>Version</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Automatic</h2>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class=" ">
+                                <p>Fuel</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Petrol</h2>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="card123">
+                    <div class="img position-relative">
+                
+                        <img src="./assets/img/main-feature-5.png" alt="">
+                
+                        <div class=" feature-card-price px-5">
+                            <div>
+                                <h4>$ 20,000</h4>
+                            </div>
+                            <div class="mt-1">
+                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 18.35L8.55 17.03C3.4 12.36 0 9.27 0 5.5C0 2.41 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.08C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.41 20 5.5C20 9.27 16.6 12.36 11.45 17.03L10 18.35Z"
+                                        fill="white" />
+                                </svg>
+                
+                            </div>
+                
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Chevelotte Maike
+                        </div>
+                        <div class="sub-title">
+                            <div class="mt-2">
+                                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 7.13376C6.4125 7.13376 6.76575 6.99394 7.05975 6.71429C7.35375 6.43465 7.5005 6.09889 7.5 5.70701C7.5 5.31465 7.353 4.97865 7.059 4.69901C6.765 4.41936 6.412 4.27978 6 4.28025C5.5875 4.28025 5.23425 4.42008 4.94025 4.69972C4.64625 4.97936 4.4995 5.31513 4.5 5.70701C4.5 6.09936 4.647 6.43536 4.941 6.71501C5.235 6.99465 5.588 7.13423 6 7.13376ZM6 14C5.9 14 5.8 13.9822 5.7 13.9465C5.6 13.9108 5.5125 13.8633 5.4375 13.8038C3.6125 12.2701 2.25 10.8462 1.35 9.53213C0.45 8.21809 0 6.99061 0 5.84968C0 4.06624 0.60325 2.64544 1.80975 1.58726C3.01625 0.529087 4.413 0 6 0C7.5875 0 8.9845 0.529087 10.191 1.58726C11.3975 2.64544 12.0005 4.06624 12 5.84968C12 6.99108 11.55 8.2188 10.65 9.53284C9.75 10.8469 8.3875 12.2705 6.5625 13.8038C6.4875 13.8633 6.4 13.9108 6.3 13.9465C6.2 13.9822 6.1 14 6 14Z"
+                                        fill="black" />
+                                </svg>
+                
+                            </div>
+                            <div class="mx-3">
+                                <p>264 Gregory Ave.Southfield, MI 48076</p>
+                            </div>
+                        </div>
+                
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="mt-3">
+                                <p>Milage</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>100,325 Kms</h2>
+                            </div>
+                        </div>
+                
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class="">
+                                <p>Version</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Automatic</h2>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between featured_card_details">
+                            <div class=" ">
+                                <p>Fuel</p>
+                
+                            </div>
+                            <div class=" ">
+                                <h2>Petrol</h2>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(".slider12").owlCarousel({
+                // loop: true,
+                // autoplay: true,
+                // autoplayTimeout: 2000,
+                // autoplayHoverPause: true,
+                // items: 4, 
+                responsive: {
+                    0: {
+                        items: 1 // On smaller screens, display one card at a time
+                    },
+                    768: {
+                        items: 2 // On medium-sized screens, display three cards at a time
+                    },
+                    1100: {
+                        items: 3 // On larger screens, display four cards at a time
+                    },
+                    1200: {
+                        items: 4 // On larger screens, display four cards at a time
+                    }
+                }
+            });
+        </script>
+
+
+        <!--################> Featured  End <########### -->
 
 
 
 
 
-        <!-- ###################>Banner End  <################-->
-
-        <!-- Template Main JS File -->
-        <script src="./assets/js/main.js"></script>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-            crossorigin="anonymous"></script>
+
+    </div>
+    <!-- Template Main JS File -->
+    <script src="./assets/js/main.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

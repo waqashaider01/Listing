@@ -6,9 +6,14 @@
 --link-log:rgba(255, 255, 255, 0.7);
 --signup-link:#F78888;
 --btn:#F78888;
+
+
+--main-heading:#F30250;
  
 }
-
+.main-body{
+  background-color: var(--body);
+}
 
 
 
@@ -524,7 +529,7 @@ border-radius: 10px;
   top: 70%; 
   left: 50%;
   transform: translate(-50%,-50%);
-  z-index: 10000;
+  
   width: 100%;
 }
 .fotm-input-sett input{
@@ -539,3 +544,244 @@ border-radius: 10px;
 }
 /*######################> Main Page End <################## */
 
+
+
+
+/* Main Category Start  */
+.cat-card{
+  width: 200px;
+  height: 200px;
+ box-shadow: 0px 0px 24.3405px rgba(0, 0, 0, 0.15);
+  border-radius: 50%  ;
+  background-color: white;
+  text-align: center;
+}
+.categ-card-content img{
+   width: 150px;
+
+}
+.categ-card-content h5{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15.3729px;
+line-height: 0px;
+/* or 162% */
+
+letter-spacing: 0.320269px;
+
+/* CTA */
+
+color: var(--signup-link);
+
+}
+.categ-card-content p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8108px;
+ 
+/* identical to box height, or 210% */
+
+letter-spacing: 0.320269px;
+
+/* Black/30 % */
+
+color: rgba(0, 0, 0, 0.3);
+
+}
+
+.main_headings{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Accent 1 */
+
+color: var(--main-heading);
+}
+.main_page_media{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media(max-width:992px)
+{
+  .main_page_media{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
+@media(max-width:768px)
+{
+  .main_page_media{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+@media(max-width:400px)
+{
+  .main_page_media{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+
+
+/* #################>Featurd Start<############  */
+.main_slider12_cet{
+ 
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  
+
+}
+ .card123{
+  width: 250px;
+ border-radius: 10px !important;  
+ }
+ @media(max-width:768px)
+ {
+  .card123{
+  width: 100%;
+  height: auto;
+ }
+ }
+.slider12 .card123{
+  flex: 1;
+  margin: 0 20px;
+  background: #fff;
+}
+.slider12 .card123 .img{
+  height: 200px;
+  width: 100%;
+ 
+}
+.slider12 .card123 .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+   border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.slider12 .card123 .content{
+  padding: 10px 30px;
+}
+.card123 .content .title{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: start;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.15px;
+
+/* Black/black */
+
+color: #000000;
+
+}
+
+.card123 .content .sub-title{
+ display: flex  ;
+}
+.card123 .content .sub-title p{
+ font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+ 
+/* identical to box height, or 175% */
+
+ 
+
+/* Black/50 % */
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.card123 .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card123 .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card123 .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card123 .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+
+.feature-badge{
+  position: absolute;
+  left: 5px;
+  top: 5px ;
+  background-color: transparent;
+  color: black;
+}
+.feature-card-price{
+   position: absolute;
+ 
+  width: 100%;
+  bottom: 0px ;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between !important;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.feature-card-price h4{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+}
+.featured-card-content{
+  background: #90CCF4;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ 
+}
+.featured_card_details h2{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+ line-height: 0px;
+  
+color: #000000;
+
+
+}
+.featured_card_details p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ line-height: 10px;
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+ 
