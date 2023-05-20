@@ -6,10 +6,11 @@
 --link-log:rgba(255, 255, 255, 0.7);
 --signup-link:#F78888;
 --btn:#F78888;
---why-us-card:#314352;
-
+--why-us-card:#314352z
 --btn-hover:#e1444d;
 --main-heading:#F30250;
+
+--category-side:#D9D9D9;
  
 }
 .main-body{
@@ -441,16 +442,16 @@ height: 40px;
 }
 
 .header-message{
-  width: 30px;
+  width: 25px;
 }
 .header-active{
   width: 10px;
   position: absolute;
 right: -4px;
-top: -4px;
+top: 5px;
 }
 .header-active-2{
-  position: absolute; top: 0px; right: 2px;
+  position: absolute; top: 10px; right: 2px;
 }
 
 
@@ -1326,3 +1327,322 @@ padding-left: 10px;
   font-size: 30px;
 }
     /* <!--################> Footer End <#############--> */
+
+
+    /* category Start  */
+
+
+    :root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+    --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+
+/*reset*/
+ 
+
+
+ .toggle-side {
+    border: none;
+    outline: none;
+    background: none; 
+    cursor: pointer;
+}
+
+ 
+
+li {
+    list-style: none;
+}
+/*navbar12*/
+.navbar12 {
+    z-index: 2;
+   width:  20%;
+    background-color: var(--category-side);
+    height:  auto; 
+  position: absolute;
+  left: 50px;
+  margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .3s ease;
+}
+
+
+.navbar12 .navbar12-container {
+    padding: 1rem; 
+}
+
+ 
+ 
+.navbar12 .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.navbar12 .menu-list .menu-item {    
+    width: 100%;
+}
+
+
+.navbar12 .menu-list .menu-item  .menu-link{    
+    display: flex;
+    transition: 0.2s ease-in-out; 
+    font-weight: 500;
+
+
+
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400 !important; 
+font-size: 16px !important;
+ 
+
+color: #000000 !important;
+
+}
+
+
+.navbar12 .menu-list .menu-item  .menu-link .menu-link-text{   
+    display: block;
+    color: inherit; 
+
+}
+
+.sidebar-cet-check{
+ 
+  width: 20px !important; 
+  height: 20px !important;
+}
+
+.navbar12 .menu-list .menu-item  .menu-link:hover,
+.navbar12 .menu-list .menu-item  .menu-link:hover
+{
+    color: var(--light-grey); 
+}
+
+ 
+.navbar12 .user-container {
+    background-color: var(--light-green); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+ 
+.navbar12.active {
+    width: 0px; 
+    max-width: 0%; 
+}
+
+ 
+.navbar12.active .navbar12-container .navbar12-logo-div {  
+    justify-content: space-between;
+    padding-left: 1rem; 
+}
+
+.navbar12.active .navbar12-container .navbar12-logo-div .navbar12-logo-link {
+    display: none; 
+}
+
+ 
+.navbar12.active .navbar12-search {
+    background-position: 1rem 0.7rem;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+
+.navbar12.active #icon-search {
+  top: 5.1rem; 
+  left: 1.6rem;
+}
+
+.navbar12.active .navbar12-search::placeholder { 
+    visibility: visible;  
+    opacity: 1;
+}
+  
+.navbar12.active .menu-list { 
+    padding-left: 1rem;
+}
+
+.navbar12.active .menu-list .menu-item  .menu-link {
+    justify-content: flex-start;
+}
+
+.navbar12.active .menu-list .menu-item  .menu-link .menu-link-text{   
+    display:  none;
+}
+
+ 
+.navbar12.active .user-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar12.active .user-container .user-info {
+    display: flex; 
+}
+
+
+/*dashboard12*/
+.dashboard12 { 
+    width: auto;
+    height: auto; 
+  
+}
+
+.navbar12 + .dashboard12 {
+    margin-left: 22%; 
+}
+
+ .sidenavebtn{
+  display: none ;
+ }
+
+
+ .main-head{
+  font-family: 'Helvetica' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 18px !important;
+line-height: 23px !important;
+/* identical to box height */
+
+letter-spacing: 0.15px !important;
+
+color: #000000 !important;
+
+ }
+
+ .category_headings{
+  font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px !important;
+    line-height: 46px;
+    letter-spacing: 0.25px;
+    color: var(--main-heading);
+}
+/*media queries*/
+@media only screen and (max-width: 870px) {
+    .navbar12  {
+        width: 100%; 
+    }
+     .navbar12-logo-div{
+  display: block ;
+ }
+
+.navbar12{
+  position: absolute;
+  left: 0px;
+}
+     .navbar12 + .dashboard12 {
+    margin-left:  0px;
+
+}
+
+
+
+} 
+.card-category-page{
+ 
+  width: 100%;
+  background-color: var(--body) !important;
+}
+ 
+/* ###############> cetogry cards Start  <#######*/
+ .card-category-page{
+  width: 100%;
+ border-radius: 10px !important;  
+ }
+ @media(max-width:768px)
+ {
+  .card-category-page{
+  width: 100%;
+  height: auto;
+ }
+ }
+.slider12-category .card-category-page{
+  flex: 1;
+  margin: 0 20px;
+  background: #fff;
+}
+.slider12-category .card-category-page .img{
+  position: relative;
+  height: 200px;
+  width: 100%;
+ 
+}
+.slider12-category .card-category-page .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+   border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.slider12-category .card-category-page .content{
+  padding: 10px 30px;
+}
+.card-category-page .content .title{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: start;
+ 
+letter-spacing: 0.15px;
+ 
+
+color: #000000;
+
+}
+
+.card-category-page .content .sub-title{
+ display: flex  ;
+}
+.card-category-page .content .sub-title p{
+ font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+ 
+ 
+ 
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.card-category-page .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card-category-page .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card-category-page .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card-category-page .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+/*####################### >Category Cards End<###########  */
+ 
