@@ -6,9 +6,15 @@
 --link-log:rgba(255, 255, 255, 0.7);
 --signup-link:#F78888;
 --btn:#F78888;
+--why-us-card:#314352;
+
+--btn-hover:#e1444d;
+--main-heading:#F30250;
  
 }
-
+.main-body{
+  background-color: var(--body);
+}
 
 
 
@@ -463,6 +469,15 @@ outline: none;
 padding-left: 10px;
 padding-right: 50px;
 }
+@media(max-width:992px)
+{
+  .header-search input{
+ width: 100% !important;
+ 
+
+ 
+}
+}
 .header-search i{
   position: absolute;
   right: 10px;
@@ -487,7 +502,9 @@ border-radius: 10px;
 
 
 /*######################> Main Page Start <################## */
-
+.main-banner{
+  position: relative !important;
+}
 .main-banner img{
  
  
@@ -505,5 +522,807 @@ border-radius: 10px;
  object-fit: cover;
 }
 }
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -35px;
+  position: relative;
+  z-index: 2;
+  right: 20px;
+  color: #F78888;
+  font-size: 20px;
+}
+
+.inputfeild-container{
+  position: absolute;
+  top: 70%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  width: 100%;
+}
+.fotm-input-sett input{
+  height: 50px;
+}
+.main-banner-btn{
+  background-color: var(--btn);
+  color: white;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main-banner-btn:hover{
+  background-color: var(--btn);
+  color: white;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /*######################> Main Page End <################## */
 
+
+
+
+/* Main Category Start  */
+.cat-card{
+  width: 200px;
+  height: 200px;
+ box-shadow: 0px 0px 24.3405px rgba(0, 0, 0, 0.15);
+  border-radius: 50%  ;
+  background-color: white;
+  text-align: center;
+}
+.categ-card-content img{
+   width: 150px;
+
+}
+.categ-card-content h5{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15.3729px;
+line-height: 0px;
+/* or 162% */
+
+letter-spacing: 0.320269px;
+
+/* CTA */
+
+color: var(--signup-link);
+
+}
+.categ-card-content p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8108px;
+ 
+/* identical to box height, or 210% */
+
+letter-spacing: 0.320269px;
+
+/* Black/30 % */
+
+color: rgba(0, 0, 0, 0.3);
+
+}
+
+.main_headings{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Accent 1 */
+
+color: var(--main-heading);
+}
+.main_page_media{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media(max-width:992px)
+{
+  .main_page_media{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
+@media(max-width:768px)
+{
+  .main_page_media{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+@media(max-width:400px)
+{
+  .main_page_media{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+
+
+/* #################>Featurd Start<############  */
+.main_slider12_cet{
+ 
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  
+
+}
+ .card123{
+  width: 250px;
+ border-radius: 10px !important;  
+ }
+ @media(max-width:768px)
+ {
+  .card123{
+  width: 100%;
+  height: auto;
+ }
+ }
+.slider12 .card123{
+  flex: 1;
+  margin: 0 20px;
+  background: #fff;
+}
+.slider12 .card123 .img{
+  position: relative;
+  height: 200px;
+  width: 100%;
+ 
+}
+.slider12 .card123 .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+   border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.slider12 .card123 .content{
+  padding: 10px 30px;
+}
+.card123 .content .title{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: start;
+ 
+letter-spacing: 0.15px;
+ 
+
+color: #000000;
+
+}
+
+.card123 .content .sub-title{
+ display: flex  ;
+}
+.card123 .content .sub-title p{
+ font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+ 
+ 
+ 
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.card123 .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card123 .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card123 .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card123 .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+
+.feature-badge{
+  position: absolute;
+  left: 15px;
+  top: 5px ;
+  background-color: transparent;
+  color: black;
+}
+@media(max-width:992px)
+{
+  .feature-badge{
+  position: absolute;
+  left: 15px;
+  top: 5px ;
+  background-color: transparent;
+  color: black;
+}
+}
+.feature-card-price{
+   position: absolute;
+ 
+  width: 100%;
+  bottom: 0px ;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between !important;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.feature-card-price h4{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+}
+.featured-card-content{
+  background: #90CCF4;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ 
+}
+.featured_card_details h2{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+ line-height: 0px;
+  
+color: #000000;
+
+
+}
+.featured_card_details p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ line-height: 10px;
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+ 
+
+/* ##################>Popular Category Start <################  */
+.popular-categ img{
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+}
+.popular-categ p{
+ font-family: 'Helvetica';
+ 
+font-weight: 700;
+font-size: 30px;
+ 
+color: #FFFFFF;
+position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50% ,-50%);
+ 
+ align-items: center;
+
+}
+
+/* ##################>Popular Category End <################  */
+
+
+
+/* ##################>Why Us Start <################  */
+
+
+.why-us-details p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+/* or 192% */
+
+letter-spacing: 0.5px;
+
+color: #000000;
+
+}
+.why-us-card{
+  border: 1px solid var(--why-us-card);
+border-radius: 10px;
+height:auto;
+text-align: center;
+}
+
+.why-us-card h3{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.15px;
+
+color: #000000;
+
+}
+.why-us-card p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.25px;
+color: #000000;
+}
+
+
+
+
+
+/* whuy us slider  */
+.next-move-whuy{
+  background: #F78888;
+  width: 30px;
+  height: 30px;
+  color: red !important;
+ 
+}
+
+.slider-color-img{
+ 
+  width: 10%;
+  height: 400px;
+  padding: 60px;
+  background-color: var(--log-container);
+}
+
+.design-start-slider img{ 
+ 
+  width: 200px;
+ 
+  
+}
+ 
+.slider-content-why h3{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+letter-spacing: 0.242525px;
+
+/* Accent 1 */
+
+color: #F30250;
+
+}
+.slider-why-paragraph{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 17.4618px;
+line-height: 26px;
+/* or 150% */
+
+letter-spacing: 0.48505px;
+
+color: #202020;
+
+
+}
+/* ##################>Why Us End <################  */
+
+
+
+/* ###############> Blogs Start <##################### */
+         .main_slider123_cet{
+ 
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  
+
+}
+ .card1234{
+  width: 300px;
+ border-radius: 10px !important;  
+ }
+ @media(max-width:768px)
+ {
+  .card1234{
+  width: 100%;
+  height: auto;
+ }
+ }
+.slider123 .card1234{
+  flex: 1;
+  margin: 0 20px;
+  background: #fff;
+}
+.slider123 .card1234 .img{
+  position: relative;
+  height: 200px;
+  width: 100%;
+ 
+}
+.slider123 .card1234 .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+   border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.slider123 .card1234 .content{
+  padding: 10px 30px;
+}
+.card1234 .content .title{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: start;
+ 
+letter-spacing: 0.15px;
+ 
+
+color: #000000;
+
+}
+
+.card1234 .content .sub-title{
+ display: flex  ;
+}
+.card1234 .content .sub-title p{
+ font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+ 
+ 
+ 
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.card1234 .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card1234 .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card1234 .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card1234 .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+
+.feature-badge{
+  position: absolute;
+  left: 15px;
+  top: 5px ;
+  background-color: transparent;
+  color: black;
+}
+@media(max-width:992px)
+{
+  .feature-badge{
+  position: absolute;
+  left: 15px;
+  top: 5px ;
+  background-color: transparent;
+  color: black;
+}
+}
+.feature-card-price{
+   position: absolute;
+ 
+  width: 100%;
+  bottom: 0px ;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.feature-card-price h4{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+}
+.featured-card-content{
+  background: #90CCF4;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ 
+}
+.featured_card_details h2{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+ line-height: 0px;
+  
+color: #000000;
+
+
+}
+.featured_card_details p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ line-height: 10px;
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.second-blogs-card p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ 
+ 
+color: rgba(0, 0, 0, 0.7) !important;
+
+}
+
+
+/* ###################>Blogs End <##############3  */
+
+/* ################>Contact Us Start <########## */
+
+
+.contact-us-main{
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+ 
+}
+.contact-form-input input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgba(255, 255, 255, 0.7);
+border-radius: 5px;
+border: none;
+}
+.contact-form-input  textarea {
+  width: 100%;
+ 
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgba(255, 255, 255, 0.7);
+border-radius: 5px;
+border: none;
+}
+.submitcontact p{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 185.9%;
+/* or 26px */
+
+text-align: center;
+
+/* Black/black */
+
+color: #000000;
+
+}
+.submitcontact a{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 185.9%;
+/* or 26px */
+
+text-align: center;
+
+/* CTA */
+
+color: #F78888;
+
+}
+
+.contact-submit button{
+  background: var(--btn);
+border-radius: 5px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.5px;
+
+/* White/white */
+
+color: #FFF
+}
+.contact-submit button:hover{
+  background: var(--btn-hover);
+border-radius: 5px;
+ font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.5px;
+
+/* White/white */
+
+color: #FFF
+}
+/* ################>Contact Us End <########## */
+
+
+
+
+
+
+  /* <!--################> Footer Start <#############--> */
+
+  .Footer_main{
+  width: 100%;
+background: #314352;
+  }
+
+  .fotter_head h3{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.15px;
+
+/* White/white */
+
+color: #FFFFFF;
+  }
+  .fotter_head ul {
+    padding: 0px; 
+    list-style: none;
+
+    
+  }
+.fotter_head ul li a{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.5px;
+ color: white;
+
+opacity: 0.6;
+}
+.fotter_head ul li a:hover{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.5px;
+ color:#d9232d;
+ transition: 0.3s;
+
+opacity: 1;
+}
+
+.contact-list h2{
+  font-family: 'Sanchez';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 150%;
+/* or 69px */
+
+letter-spacing: 0.5px;
+
+/* White/70 % */
+
+color: rgba(255, 255, 255, 0.7);
+}
+.contact-list p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+/* or 192% */
+
+letter-spacing: 0.5px;
+
+/* White/70 % */
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+
+.subscibe-contact-btn input{
+  background: #FFFFFF;
+border-radius: 8px;
+ width: 80%;
+height: 50px;
+border: none ;
+padding-left: 10px;
+ 
+ 
+
+}
+.subscibe-contact-btn button{
+ position: absolute;
+ right: 0px;
+ top: 7px;
+
+}
+@media only screen and (max-width: 768px) and (min-width: 400px)  {
+
+  .subscibe-contact-btn button{
+ position: absolute;
+ right: 20px;
+ top: 7px;
+
+}
+}
+
+.contact-social a{
+  color: white;
+  opacity: 0.4;
+  font-size: 30px;
+}
+.contact-social a:hover{
+  color: white;
+  opacity: 1;
+  font-size: 30px;
+}
+    /* <!--################> Footer End <#############--> */
