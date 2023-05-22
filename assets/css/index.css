@@ -1120,6 +1120,7 @@ color: rgba(0, 0, 0, 0.7) !important;
 .contact-us-main{
   background: rgba(255, 255, 255, 0.3);
   width: 100%;
+  height: auto;
  
 }
 .contact-form-input input {
@@ -1215,6 +1216,7 @@ color: #FFF
   .Footer_main{
   width: 100%;
 background: #314352;
+ 
   }
 
   .fotter_head h3{
@@ -2435,5 +2437,37 @@ color: rgba(0, 0, 0, 0.6);
 
 
 }
- 
+.activepostads_fill{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.postads-input input,textarea{
+  box-shadow: 0px 4px 21px rgba(92, 177, 255, 0.2);
+border-radius: 5px;
+}
 /* #################>Product Details Page End  <################ */
+
+
+/* Post ads Start  */
+.upload-file-post input[type='file']{ display: none; }
+.upload-file-post span {
+  cursor: pointer;
+ 
+  font: 13pt Tahoma;
+
+background: #D9D9D9;
+  
+  color: black;
+ 
+  border-radius: 4px;
+  padding: 10px 20px;
+ 
+}
+ 
