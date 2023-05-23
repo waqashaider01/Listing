@@ -2346,6 +2346,20 @@ color: #F78888;
   border-radius: 10px;
   
 }
+.pro-safety-tips-read-more{
+  
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ 
+
+letter-spacing: 0.1px;
+
+ 
+
+color: #F78888;
+}
 .pro-safety-tips h3{
   /* Heading/H5 */
 
@@ -2452,6 +2466,17 @@ color: #000000;
   box-shadow: 0px 4px 21px rgba(92, 177, 255, 0.2);
 border-radius: 5px;
 }
+
+.product-likes{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 19.3333px;
+line-height: 29px;
+letter-spacing: 0.345238px;
+color: rgba(0, 0, 0, 0.5);
+
+}
 /* #################>Product Details Page End  <################ */
 
 
@@ -2470,4 +2495,277 @@ background: #D9D9D9;
   padding: 10px 20px;
  
 }
+.ad-preview-style li{
+  list-style: disc;
+      font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.seemore-review{
+  font-weight: 700;
+  color: black;
+}
+
+
+
+
+
+.ad-preview-term-cond input{
+width: 25px;
+height: 25px;
+
+border: 2px solid #000000;
+
+}
  
+.ad-preview-term-cond p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.5px;
+
+color: #000000;
+
+}
+.ad-preview-term-cond p a{
+ 
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.5px;
+
+/* CTA */
+
+color: #F78888;
+
+
+}
+
+/* ################>Profile Start <################## */
+
+
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+  background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+/* ################>Profile End <################## */
+
+ 
+
+/* ##################>SWAP sTART<##############*/
+
+.swap-head{
+
+
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+color: #000000;
+
+}
+.swap-head-second{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 46px;
+letter-spacing: 0.25px;
+
+color: #000000;
+}
+
+/* ##################>SWAP End<##############*/
+
+
+/* Blogs Main Start  */
+.blog-main{
+  padding-top: 100px;
+}
+.blogs-date{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ 
+/* identical to box height, or 150% */
+
+letter-spacing: 0.25px;
+
+/* Black/30 % */
+
+color: rgba(0, 0, 0, 0.3);
+ display: flex;
+ justify-content: end;
+}
+ 
+
+/*################ >Blog Details Start <############ */
+.blogs-details-date p{
+  /* Body/B3 S */
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.25px;
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+.blog-details-de{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+/* or 192% */
+
+text-align: justify;
+letter-spacing: 0.5px;
+
+/* Black/70 % */
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+.blog-details-contact input{
+  background: #ECECEC;
+box-shadow: 4px 11px 37px rgba(0, 0, 0, 0.03);
+border-radius: 15px;
+}
+
+.blog-details-contact textarea{
+  background: #ECECEC;
+box-shadow: 4px 11px 37px rgba(0, 0, 0, 0.03);
+border-radius: 15px;
+ margin-top: 50px;
+}
