@@ -156,6 +156,11 @@ color: rgba(255, 255, 255, 0.7);
   z-index: 997;
   padding: 20px 0;
 }
+
+.profile-header-setting{
+  border: none !important;
+  margin-left: 30px !important;
+}
 a{
     text-decoration: none;
 }
@@ -447,14 +452,30 @@ height: 40px;
 .header-active{
   width: 10px;
   position: absolute;
-right: -4px;
+left: 50px;
 top: 5px;
 }
 .header-active-2{
-  position: absolute; top: 10px; right: 2px;
+  position: absolute;
+   top: 10px; left: 45px;
 }
 
 
+@media(max-width:900px)
+{
+  .header-active-2{
+  position: absolute;
+   top: 5px !important; left: 25px !important;
+}
+
+.header-active{
+  width: 10px;
+  position: absolute;
+left: 40px !important; 
+top: 5px;
+}
+
+}
 .header-search{
   position: relative;
 }
@@ -1924,6 +1945,62 @@ color: rgba(0, 0, 0, 0.5);
 
 
 /* reviw Start  */
+
+
+ 
+.product-review-profile h3{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+padding-left: 10px;
+
+ 
+ margin-top: 5px;
+
+color: #000000;
+
+}
+
+.product-review-profile h4{
+ font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 10px;
+text-align: left;
+padding-left: 10px;
+ 
+color: rgba(0, 0, 0, 0.5);
+
+}
+.review-bage-product{
+  background-color: #FFE3DA; color: black;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.preview-profile-p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ 
+padding-top: 10px;
+/* or 175% */
+
+text-align: start;
+letter-spacing: 0.5px;
+
+/* Black/70 % */
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+.product-review-profile img{
+  width: 50px !important;
+}
 .reviwedata_buy {
     display: flex;
     justify-content: space-between;
@@ -2943,6 +3020,23 @@ color: #000000;
 
 /* activity Start  */
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+  color: black !important;
+  font-weight: 700;
+   
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background: #F78888 !important;
+  color: white !important;
+  padding: 10px;
+  border-radius:5px ;
+}
+
+.nav-tabs {
+  border: none !important;
+}
+
+
 /* sweet Alert Design  */
 .swal2-popup{
   background-color: white !important;
@@ -3044,3 +3138,538 @@ color: rgba(0, 0, 0, 0.3);
   top: 5px;
    left: 70px;
  }
+
+ /*################> My Subscription  Start <##############*/
+.subscriotion-head{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+ .subscription-main{
+  background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+ }
+ .subscription-main .img-setting{
+  text-align: center;
+ align-items:center;
+
+ }
+ .subscription-main img{
+  width: 100px;
+  height: 70px;
+
+  margin-top: 20px;
+
+ }
+ .subscription-main h1{
+ 
+font-style: normal;
+font-weight: 700;
+ 
+ 
+
+color: #90CCF4;
+
+ }
+ .subscription-details span{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+  
+ 
+color: #000000;
+
+ }
+
+  .subscription-details p
+{ 
+  
+ 
+
+ font-size: 16px;
+color: rgba(0, 0, 0, 0.7);
+
+
+ }
+   .subscription-details h6
+{ 
+  
+ 
+
+ font-size: 16px;
+ font-weight: 700;
+color: #419300;
+
+
+ }
+
+
+
+.other-subscription{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+ }
+ .main-subscription1{
+    text-align: center;
+ align-items:center;
+ }
+ .main-subscription1 img{
+  width: 30px;  
+
+ }
+ .main-subscription1 h3{
+
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+  background: linear-gradient(90deg, #535353 0%, rgba(254, 255, 198, 0.89) 25%, rgba(198, 191, 131, 0.56) 66.67%, rgba(178, 178, 178, 0.96) 96.88%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+ }
+ .other-sub-content li{
+  list-style: disc !important;
+ }
+
+
+ .main-subscription2 h3{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+background: linear-gradient(90deg, #535353 0%, rgba(160, 169, 174, 0.89) 25%, rgba(101, 109, 114, 0.56) 66.67%, rgba(53, 54, 54, 0.96) 96.88%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+ }
+
+ .main-subscription3 h3{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 23.1477px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.144673px;
+
+background: linear-gradient(90deg, #FFC700 -4.63%, #FFF171 21.57%, #D8930E 44.59%, #F8EB7C 64.39%, #CDBF3C 94.91%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+ }
+
+ /* Performance Start  */
+
+ .performance-chart{
+  background-color: #ECECEC !important;
+ }
+
+
+ .performance-date-stle{
+ background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.12);
+border-radius: 10px;
+ }
+
+
+ .perf-chart-card1
+ {
+  background: #F78888;
+border-radius: 6.84548px;
+ 
+ }
+  .perf-chart-card2{
+    background: #F30250;
+border-radius: 6.84548px
+  }
+    .perf-chart-card3{
+   background: #90CCF4;
+border-radius: 6.84548px;
+  }
+      .perf-chart-card4{
+background: #314352;
+border-radius: 6.84548px;
+  }
+
+  .perf-chart-card h3{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 21.9055px;
+ 
+
+text-align: center;
+
+color: #FFFFFF;
+
+  }
+    .perf-chart-card p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 500;
+font-size: 18.9055px;
+ 
+
+text-align: center;
+
+color: #FFFFFF;
+
+  }
+
+
+
+  /*################> Balance Page Start <########### */
+
+  .perf-balance-card{
+    border-radius: 10px;
+  }
+  .perf-balance-card p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.25px;
+text-align: center;
+
+color: #000000;
+padding-top: 10px;
+padding-bottom: 10px;
+
+  }
+
+    .perf-balance-card h3{
+ font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+letter-spacing: 0.25px;
+color: #F78888;
+text-align: center;
+
+
+  }
+
+  .recharge-balance{
+    background: #F78888;
+border-radius: 10px;
+color:white;
+
+  }
+    .recharge-balance:hover{
+    background: #e1444d;
+border-radius: 10px;
+color:white;
+
+  }
+
+  .balance-hist-main{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+  }
+  .balance-hist-main h1{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.15px;
+color: #000000;
+text-align: center;
+}
+.balance-details p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+ 
+letter-spacing: 0.5px;
+
+ 
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+
+/*###############> Profile Start<#########*/
+.pro-setting{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16.7414px;
+line-height: 23px;
+
+color: #4C535F;
+}
+
+.profile-pic{
+  background-color: white;
+  width: 100%;
+  height: 200px;  
+ 
+  border-radius: 18.8341px;
+  cursor: pointer;
+}
+.profile-pic img{
+  width: 100%;
+  height: 150px;
+margin-top: 20px !important;
+padding-left: 10px !important;
+padding-right: 10px !important;
+  cursor: pointer;
+     padding: 0px;
+  border-radius: 18.8341px;
+}
+ 
+.setting-form label{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16.7414px;
+line-height: 29px;
+ 
+letter-spacing: 0.523168px;
+
+color: #4C535F;
+
+}
+.setting-form input{
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
+/* White/white */
+
+border: 1.09482px solid #FFFFFF;
+border-radius: 8.75856px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.setting-form input::placeholder{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14.6487px;
+ 
+
+color: #8D98AA;
+
+
+}
+
+.phonenumber-sett{
+  position: relative;
+
+
+}
+ .phonenumber-sett input{
+  padding-left: 50px;
+  
+ }
+ .phonenumber-sett select{
+  position: absolute;
+  top: 50px;
+  left: 3px;
+border: none !important;
+outline: none;
+}
+
+.setting-account-textarea{
+  border: none;
+
+}
+.setting-account-textarea::placeholder{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14.6487px;
+ 
+
+color: #8D98AA;
+
+}
+
+.setting-pr-main-head {
+  padding: 20px;
+
+
+}
+.setting-pr-main-head h3{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+letter-spacing: 0.25px;
+
+color: #000000;
+
+}
+.email-prefrence h4{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+letter-spacing: 0.15px;
+
+color: #000000;
+
+}
+
+.email-prefrence{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+/* identical to box height, or 192% */
+
+letter-spacing: 0.5px;
+
+color: #000000;
+
+}
+
+
+/* toggle Start  */
+   .switch-togglebtn {
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+    
+        .switch-btn,
+        .layer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    
+        .button-check {
+            position: relative;
+            width: 50px;
+            height: 25  px;
+            overflow: hidden;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+        }
+    
+        .checkbox {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            opacity: 0;
+            cursor: pointer;
+            z-index: 3;
+        }
+    
+        .switch-btn {
+            z-index: 2;
+        }
+    
+        .layer {
+            width: 100%;
+            background-color: #C0C0C0;
+            transition: 0.3s ease all;
+            
+            z-index: 1;
+        }
+        #button-check .switch-btn:before,
+        #button-check .switch-btn:after {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 15px;
+            height: 15px;
+            color: #fff;
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1;
+            padding: 9px 4px;
+            background-color: white;
+            border-radius: 50%;
+            transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #button-check .switch-btn:before {
+            content: '';
+        }
+        #button-check .switch-btn:after {
+            content: '';
+        }
+    
+        #button-check .switch-btn:after {
+            right: -50px;
+            left: auto;
+            background-color: white;
+        }
+    
+        #button-check .checkbox:checked+.switch-btn:before {
+            left: -50px;
+        }
+    
+        #button-check .checkbox:checked+.switch-btn:after {
+            right: 4px;
+        }
+    
+        #button-check .checkbox:checked~.layer {
+            background-color: #34C900;
+        }
+
+        @media(max-width:768px)
+        {
+          .tabcontenteight{
+            padding: 0px !important;
+          }
+          .setting-pr-main-head{
+            padding: 0px ;
+          }
+        }
+
+        /*###############> Contact us Page Start <###########*/
+        .setting-conrtact{
+          background: #6B7F91;
+border-radius: 10px;
+ 
+        }
