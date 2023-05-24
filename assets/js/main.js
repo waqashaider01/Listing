@@ -137,7 +137,6 @@
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
-
   /**
    * Portfolio details slider
    */
@@ -154,7 +153,6 @@
       clickable: true
     }
   });
-
   /**
    * Initiate portfolio details lightbox 
    */
@@ -163,7 +161,6 @@
     width: '90%',
     height: '90vh'
   });
-
   /**
    * Skills animation
    */
