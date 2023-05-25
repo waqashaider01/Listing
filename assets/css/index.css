@@ -231,13 +231,23 @@ color: #000000;
   display: flex;
   align-items: center;
  
-  padding: 10px 0 10px 30px;
+  padding: 0px 0 10px 20px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 700;
   color: black;
   white-space: nowrap;
   transition: 0.3s;
+}
+
+@media(min-width:1050px)
+{
+  .navbar a,
+.navbar a:focus {
+  
+  padding: 10px 0 10px 30px;
+ 
+}
 }
 .header-profile{
   width: 40px;
@@ -461,11 +471,12 @@ top: 5px;
 }
 
 
-@media(max-width:900px)
+@media(max-width:1000px)
 {
   .header-active-2{
-  position: absolute;
-   top: 5px !important; left: 25px !important;
+  position: absolute !important;
+   top: 10px !important; 
+   left: 20px !important;
 }
 
 .header-active{
@@ -2096,14 +2107,60 @@ color: rgba(0, 0, 0, 0.7);
     list-style: none;
     background-color:white;
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
     height: 50px;
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
     color: #F78888;
+    margin-left: 10px;
 }
  
+@media(max-width:1200px)
+{
+  .toptab_ul {
+ 
+    width: 300px;
+   
+}
+ 
+}
+@media(max-width:992px)
+{
+  .toptab_ul {
+ 
+    width: 330px;
+   
+}
+ 
+}
+
+@media(max-width:786px)
+{
+  .toptab_ul {
+ 
+    width: 100%;
+   
+}
+.category_headings{
+     
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px !important;
+    /* line-height: 20px; */
+    letter-spacing: 0.25px;
+    color: var(--main-heading);
+    margin: 5px !important;
+
+}
+.product-cursor{
+ position: relative;
+ top: -26px;
+ width:10px;
+ height: 18px;
+}
+}
 
 .tabs {
     display: flex;
@@ -2389,9 +2446,14 @@ color: #F78888;
 border-radius: 5px;
 color: white;
 }
+
 .chat-call-pro:hover{
-  background: #F78888;
+  background: var(--btn-hover);
 border-radius: 5px;
+color: white;
+}
+.submit-main button{
+  background: #314352 !important;
 }
 .pro-chat-what{
     background-color: white !important;

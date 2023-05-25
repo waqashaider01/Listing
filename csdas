@@ -1193,12 +1193,12 @@
 
         <div class="d-flex ad-preview-term-cond">
             <div class="">
-
+        
                 <div id="app">
                     <label><input type="radio" name="radio" value="1" checked></label>
-
+        
                 </div>
-
+        
             </div>
             <div class="mx-2">
                 <p>I agree to the <a href="">terms and conditions</a> of the site.</p>
@@ -1422,24 +1422,24 @@
     </script>
 
 
-    <script>
-        $(function () {
-            var inputs = $('input');
-            var checked = inputs.filter(':checked').val();
-            inputs.on('click', function () {
+<script>
+    $(function () {
+        var inputs = $('input');
+        var checked = inputs.filter(':checked').val();
+        inputs.on('click', function () {
 
-                if ($(this).val() === checked) {
-                    $(this).prop('checked', false);
-                    checked = '';
+            if ($(this).val() === checked) {
+                $(this).prop('checked', false);
+                checked = '';
 
-                } else {
-                    $(this).prop('checked', true);
-                    checked = $(this).val();
-                }
-            });
-
+            } else {
+                $(this).prop('checked', true);
+                checked = $(this).val();
+            }
         });
-    </script>
+
+    });
+</script>
 
 
 
